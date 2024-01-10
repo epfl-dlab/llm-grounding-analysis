@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Locating and Detecting Language Model Grounding with Fakepedia">
+  <meta name="keywords" content="Fakepedia">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Glitch in the Matrix? Locating and Detecting Language Model Grounding with Fakepedia</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/table.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">A Glitch in the Matrix? Locating and Detecting Language Model Grounding with Fakepedia</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              Giovanni Monea</a><sup>1</sup>,</span>
+            <span class="author-block">
+              Maxime Peyrard</a><sup>2</sup>,</span>
+            <span class="author-block">
+              Martin Josifoski<sup>1</sup>,
+            </span>
+            <span class="author-block">
+              Vishrav Chaudhary<sup>3</sup>,
+            </span>
+            <span class="author-block">
+              Jason Eisner<sup>3</sup>,
+            </span>
+            <span class="author-block">
+              Emre Kıcıman<sup>3</sup>,
+            </span>
+            <span class="author-block">
+              Hamid Palangi<sup>3</sup>,
+            </span>
+            <span class="author-block">
+              Barun Patra<sup>3</sup>,
+            </span>
+            <span class="author-block">
+              Robert West<sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>EPFL,</span>
+            <span class="author-block"><sup>2</sup>Univ. Grenoble Alpes, CNRS, Grenoble INP, LIG,</span>
+            <span class="author-block"><sup>3</sup>Microsoft Corporation</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2312.02073"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2312.02073"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/epfl-dlab/llm-grounding-analysis"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://github.com/epfl-dlab/llm-grounding-analysis/tree/main/data"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Fakepedia</span>
+                  </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div style="text-align: center;">
+      <h2 class="title is-2"><img src="./static/images/trophy-prize-medal.svg" style="width: 80px; height: auto; vertical-align: middle;"> Leaderboard <img src="./static/images/trophy-prize-medal.svg" style="width: 80px; height: auto; vertical-align: middle;"></h2>
+    </div>
+    <br>
+    <div class="container is-max-desktop">
+
+      <div class="columns is-centered">
+  
+        <!-- Fakepedia-Base -->
+        <div class="column">
+          <div class="content">
+            <div style="text-align: center;">
+              <h2 class="title is-3">Fakepedia - Base</h2>
+            </div>
+            <table class="styled-table">
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Model name</th>
+                  <th>Grounding accuracy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td></td>
+                  <td>Mistral-7B-Instruct-v0.1</td>
+                  <td>92%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Llama-2-70b-chat</td>
+                  <td>90%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Llama-2-13b-chat</td>
+                  <td>84%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>gpt-3.5-turbo-0301</td>
+                  <td>61%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Zephyr-7b-β</td>
+                  <td>58%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>gpt-3.5-turbo-0613</td>
+                  <td>54%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>gpt-3.5-turbo-1106</td>
+                  <td>50%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>gpt-4-1106-preview</td>
+                  <td>28%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Llama-2-7b-chat</td>
+                  <td>22%</td>
+                </tr>
+                <!-- New entry
+                <tr>
+                  <td></td>
+                  <td>model name</td>
+                  <td>grounding accuracy</td>
+                </tr> 
+                -->
+              </tbody>
+          </table>
+          </div>
+        </div>
+        <!--/  Fakepedia-Base -->
+  
+        <!-- Fakepedia-MH -->
+        <div class="column">
+          <div class="content">
+            <div style="text-align: center;">
+              <h2 class="title is-3">Fakepedia - Multihop</h2>
+            </div>
+            <table class="styled-table">
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Model name</th>
+                  <th>Grounding accuracy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td></td>
+                  <td>Llama-2-13b-chat</td>
+                  <td>82%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Llama-2-70b-chat</td>
+                  <td>71%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Mistral-7B-Instruct-v0.1</td>
+                  <td>60%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>gpt-4-1106-preview</td>
+                  <td>50%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Zephyr-7b-β</td>
+                  <td>10%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>gpt-3.5-turbo-1106</td>
+                  <td>10%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>gpt-3.5-turbo-0613</td>
+                  <td>8%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>gpt-3.5-turbo-0301</td>
+                  <td>7%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Llama-2-7b-chat</td>
+                  <td>4%</td>
+                </tr>
+                <!-- New entry
+                <tr>
+                  <td></td>
+                  <td>model name</td>
+                  <td>grounding accuracy</td>
+                </tr> 
+                -->
+              </tbody>
+          </table>
+          </div>
+        </div>
+        <!--/  Fakepedia-MH -->
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <centered>
+          Template <a href="https://nerfies.github.io/">source</a> by <a href="https://keunhong.com/">Keunhong Park</a>.
+        </centered>
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
