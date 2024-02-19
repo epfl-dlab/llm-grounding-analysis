@@ -1,0 +1,3 @@
+{"pattern": "[X] is a member of [Y].", "lemma": "member", "extended_lemma": "is-member-of", "tense": "present"}
+{"pattern": "[X] belongs to the organization of [Y].", "lemma": "belong", "extended_lemma": "belong-to-organization", "tense": "present"}
+{"pattern": "[X] is affiliated with [Y].", "lemma": "affiliate", "extended_lemma": "affiliate-with", "tense": "present"}

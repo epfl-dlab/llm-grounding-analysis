@@ -1,0 +1,6 @@
+{"pattern": "[X] was originally aired on the same network as [Y].", "lemma": "air", "extended_lemma": "air-on-originally", "tense": "past"}
+{"pattern": "[X] is to debut on the same network as [Y].", "lemma": "debut", "extended_lemma": "to-debut-on", "tense": "future"}
+{"pattern": "[X] debuted on the same network as [Y].", "lemma": "debut", "extended_lemma": "debut-on", "tense": "past"}
+{"pattern": "[X] was released on the same network as [Y].", "lemma": "release", "extended_lemma": "is-release-on", "tense": "past"}
+{"pattern": "[X] premiered on the same network as [Y].", "lemma": "premiere", "extended_lemma": "premiere-on", "tense": "past"}
+{"pattern": "[X] premieres on the same network as [Y].", "lemma": "premiere", "extended_lemma": "premiere-on", "tense": "present"}

@@ -1,0 +1,7 @@
+{"pattern": "The headquarter of [X] is in [Y] .", "lemma": "headquarter", "extended_lemma": "headquarter", "tense": "present"}
+{"pattern": "The headquarters of [X] is in [Y] .", "lemma": "headquarters", "extended_lemma": "headquarters-in", "tense": "present"}
+{"pattern": "The headquarter of [X] is located in [Y] .", "lemma": "located-in", "extended_lemma": "located-in", "tense": "present"}
+{"pattern": "[X] is headquartered in [Y].", "lemma": "is-headquarter", "extended_lemma": "is-headquarter", "tense": "present"}
+{"pattern": "[X]'s headquarters are in [Y].", "lemma": "headquarters", "extended_lemma": "headquarters-in", "tense": "present"}
+{"pattern": "[X], whose headquarters are in [Y].", "lemma": "headquarters", "extended_lemma": "headquarters-in", "tense": "present"}
+{"pattern": "[X] is based in [Y].", "lemma": "based", "extended_lemma": "based-in", "tense": "present"}

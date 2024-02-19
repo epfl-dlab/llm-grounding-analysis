@@ -1,0 +1,4 @@
+{"pattern": "[X] and [Y] were born in the same place.", "lemma": "born", "extended_lemma": "born-in", "tense": "past"}
+{"pattern": "[X] and [Y] are originally from the same place.", "lemma": "from", "extended_lemma": "is-originally-from", "tense": "present"}
+{"pattern": "[X] and [Y] are native to the same place.", "lemma": "native", "extended_lemma": "is-native-to", "tense": "present"}
+{"pattern": "[X] and [Y] originate from the same place.", "lemma": "originate", "extended_lemma": "originate-from", "tense": "present"}

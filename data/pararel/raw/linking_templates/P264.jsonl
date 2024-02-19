@@ -1,0 +1,8 @@
+{"pattern": "[X] is represented by the same music label as [Y] .", "lemma": "represented-by-music-label", "extended_lemma": "represented-by-music-label", "tense": "present"}
+{"pattern": "[X] is represented by the same record label as [Y] .", "lemma": "represented-by-record-label", "extended_lemma": "represented-by-record-label", "tense": "present"}
+{"pattern": "The music label that is representing [X] is the same as [Y].", "lemma": "representing", "extended_lemma": "that-representing", "tense": "present"}
+{"pattern": "[X]'s record label is the same as [Y].", "lemma": "s-record-label", "extended_lemma": "s-record-label", "tense": "present"}
+{"pattern": "[X]'s record company is the same as [Y].", "lemma": "s-record-label", "extended_lemma": "s-record-company", "tense": "present"}
+{"pattern": "[X]'s music label is the same as [Y].", "lemma": "s-music-label", "extended_lemma": "s-music-label", "tense": "present"}
+{"pattern": "[X] recorded for the same record label as [Y].", "lemma": "recorded-for", "extended_lemma": "recorded-for", "tense": "present"}
+{"pattern": "[X], released by the same label as [Y].", "lemma": "released-by", "extended_lemma": "released-by", "tense": "present"}

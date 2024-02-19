@@ -1,0 +1,2 @@
+{"pattern": "[X] and [Y] belong to the same continent.", "lemma": "belong", "extended_lemma": "belong-to-continent", "tense": "present"}
+{"pattern": "[X] and [Y] are part of the same continent.", "lemma": "part", "extended_lemma": "part-of-continent", "tense": "present"}

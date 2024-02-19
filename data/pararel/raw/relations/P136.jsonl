@@ -1,0 +1,2 @@
+{"pattern": "[X] plays [Y].", "lemma": "plays", "extended_lemma": "plays", "tense": "present"}
+{"pattern": "[X], who plays [Y].", "lemma": "who-plays", "extended_lemma": "who-plays", "tense": "present"}

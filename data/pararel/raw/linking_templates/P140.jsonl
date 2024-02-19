@@ -1,0 +1,2 @@
+{"pattern": "[X] and [Y] are followers of the same religion.", "lemma": "follower", "extended_lemma": "follower", "tense": "present"}
+{"pattern": "[X]'s official religion is the same as [Y].", "lemma": "official-religion", "extended_lemma": "official-religion", "tense": "present"}

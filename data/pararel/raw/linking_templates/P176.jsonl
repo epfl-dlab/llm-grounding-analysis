@@ -1,0 +1,10 @@
+{"pattern": "[X] is produced by the same producer as [Y].", "lemma": "produce", "extended_lemma": "produce-by", "tense": "present"}
+{"pattern": "[X] is developed by the same developer as [Y].", "lemma": "develop", "extended_lemma": "develop-by", "tense": "present"}
+{"pattern": "[X] is developed by the same developer as [Y].", "lemma": "develop", "extended_lemma": "develop-by", "tense": "?"}
+{"pattern": "[X] is produced by  the same producer as [Y].", "lemma": "produce", "extended_lemma": "produce-by", "tense": "?"}
+{"pattern": "[X] is created by the same creator as [Y].", "lemma": "create", "extended_lemma": "create-by", "tense": "present"}
+{"pattern": "[X] is created by the same creator as [Y].", "lemma": "create", "extended_lemma": "create-by", "tense": "?"}
+{"pattern": "[X] is a product of the same producer as [Y].", "lemma": "product", "extended_lemma": "is-product-of", "tense": "present"}
+{"pattern": "[X] is a product of the same producer as [Y].", "lemma": "product", "extended_lemma": "product-of", "tense": "?"}
+{"pattern": "[X] is a product created by the same creator as [Y].", "lemma": "product", "extended_lemma": "product-release-by", "tense": "?"}
+{"pattern": "[X] is a product developed by the same developer as [Y].", "lemma": "product", "extended_lemma": "product-develope-by", "tense": "?"}
